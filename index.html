@@ -1,3 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+
+</head>
+<body>
+	<div class="palindrome">
+		<h2>Palindrome</h2>
+		<input type="text" id="palindrome">
+		<button onClick = palindrome()>Check Palindrome</button>&nbsp;
+		<span id="palindromeOutput"></span>
+	</div>
+	<br>
+	<div class="factorial">
+		<h2>Factorial</h2>
+		<input type="number" id="factIpt" value="1">
+		<button onclick = "factorial()">Find factorial</button>&nbsp;
+		<span id="factorialOutput"></span>
+	</div>
+	<br>
+	<div class="primeNumber">
+		<h2>Prime Number Series</h2>
+		<input type="number" id="primeIpt" placeholder="Type limit">
+		<button onclick = "primeSeries()">Find Prime Series</button><br>
+		<div id="primeOutput"></div>
+	</div>
+	<br>
+	<div class="armstrong">
+		<h2>Armstrong Number</h2>
+		<input type="number" id="armIpt" placeholder="Enter b/w 100 and 999">
+		<button onclick = "armstrong()">Check if Armstrong</button>&nbsp;
+		<span id="armOutput"></span>
+	</div>
+	<br>
+
+	<script src="js/factorial_script.js"></script>
+	<script src="js/palindrome_script.js"></script>
+	<script src="js/prime_script.js"></script>
+	<script src="js/armstrong_script.js"></script>
+</body>
 </html>
