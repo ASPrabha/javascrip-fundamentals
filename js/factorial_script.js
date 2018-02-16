@@ -6,6 +6,6 @@ function factorial(){
 		result = result * i;
 	};
 
-	document.getElementById("factorialOutput").innerHTML = result;
+	document.getElementById("factorialOutput").innerHTML = 'Factorial of ' + inputFact+ ' is ' + result;
 }
 
